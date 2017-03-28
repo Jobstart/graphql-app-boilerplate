@@ -1,0 +1,45 @@
+{
+  "name": "graphql-app-boilerplate",
+  "version": "1.0.0",
+  "description": "Full-stack boilerplate for GraphQL-powered web apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jobstart/graphql-app-boilerplate.git"
+  },
+  "scripts": {
+    "watch": "concurrently \"npm --prefix services/frontend run watch\" \"npm --prefix services/graphql run watch\"",
+    "test": "concurrently \"npm --prefix services/frontend test\" \"npm --prefix services/graphql test\""
+  },
+  "keywords": [
+    "graphql",
+    "boilerplate",
+    "fullstack"
+  ],
+  "author": "Andrew E. Rhyne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jobstart/graphql-app-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Jobstart/graphql-app-boilerplate#readme",
+  "dependencies": {
+    "concurrently": "^3.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.18.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "json-loader": "^0.5.4",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.6.1",
+    "sinon": "^2.1.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-node-externals": "^1.5.4"
+  }
+}

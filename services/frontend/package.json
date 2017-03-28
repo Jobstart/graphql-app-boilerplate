@@ -1,0 +1,20 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "next"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-client": "^1.0.0-rc.6",
+    "next": "^2.0.0",
+    "react": "^15.4.2",
+    "react-apollo": "^1.0.0-rc.3",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0"
+  }
+}

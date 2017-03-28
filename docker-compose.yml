@@ -1,0 +1,5 @@
+redis:
+  container_name: graphql-app-redis
+  image: redis:3-alpine
+  ports:
+    - "$REDIS_PORT:6379"
